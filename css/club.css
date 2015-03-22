@@ -1,0 +1,143 @@
+#container{
+	margin-top: 2%;
+	color:rgba(0,15,28,0.6);
+}
+#horraires,#agenda,#galerie,#revue,#bourse,#guide{
+	display: none;
+}
+#container nav{
+	right: 0;
+	left: 0;
+	text-align: center;
+	background-color: #F2F2F2;
+}
+#container ul{
+	list-style-type: none;
+	padding: 10px;
+}
+#container nav li{
+	display: inline-block;
+}
+#container nav a{
+	padding: 10px; 
+	color:rgba(0,15,28,0.6);
+	margin-left: -5px;
+	font-weight: bold;
+}
+#container nav a:hover{
+	color: #ED4040;
+}
+.sousMenu{
+	border-bottom:2px solid #ED4040;
+}
+#inscription{
+	margin-top: 3%;
+}
+#inscription p,#inscription strong{
+	text-align: center;
+}
+#container h2{
+	color: #ED4040;
+	border-bottom: 2px solid #ED4040;
+	display: inline-block;
+	margin-bottom: 2%;
+}
+.titre{
+	text-align: center;
+}
+#container h3{
+	color:rgba(0,15,28,0.6);
+	font-weight: inherit;
+	display: inline-block;
+	margin: 2%;
+}
+#inscription img{
+	border-radius:100%;
+	display: inline-block;
+	width: 30%;
+	margin-right: 2%;
+	border:5px solid rgba(0,15,28,0.6);
+}
+#inscription a{
+	color:#ED4040;
+}
+.textRight{
+	width:90%;
+	margin-left: 5%;
+	display: inline-block;
+	vertical-align: top;
+}
+#inscription form{
+	text-align: center;
+}
+#inscription input,#inscription select{
+	display: block;
+	text-align: center;
+	border:none;
+	width: 30%;
+	margin:1%;
+	height: 35px;
+	margin-left: 35%;
+}
+#inscription button{
+	display: block;
+	height:30px;
+	width:80px;
+	background:#e18728;
+    color:white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 1%;
+    margin-left: 47%;
+}
+#inscription button:hover{
+	background-color:rgb(51,204,255);
+	color: white;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+#horraires{
+	text-align: center;
+	margin-top: 2%;
+}
+table{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 2%;
+	color: white;
+}
+td{
+	padding: 1%;
+}
+#nameTable{
+	background-color: #ED4040;
+}
+.impaire{
+	background-color:  #000F1C;
+	opacity: 0.5;
+}
+.paire{
+	background-color: #000F1C;
+	opacity: 0.8;
+}
+#revue{
+	text-align: center;
+	margin-top: 2%;
+	padding: 2%;
+}
+#revue p{
+	text-align: justify;
+}
+.imgImpaire{
+	float : left;
+	border-radius: 100%;
+	margin: 2%;
+}
+.imgPaire{
+	margin: 2%;
+	float : right;
+	border-radius: 100%;
+}

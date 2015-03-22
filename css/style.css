@@ -1,0 +1,72 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color: #F2F2F2;
+	font-family: calibri;
+	height: 100%;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+#img-header{
+	background: url('../images/fond.jpg') center 0;
+    -webkit-background-size: cover; /* pour Chrome et Safari */
+    -moz-background-size: cover; /* pour Firefox */
+    -o-background-size: cover; /* pour Opera */
+    background-size: cover; /* version standardisée */
+    background-repeat: no-repeat;
+}
+#header nav {
+	background-color: #000F1C;
+	opacity: 0.8;
+	top: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+}
+#header nav ul{
+	list-style-type: none;
+	padding: 10px;
+}
+#header nav li{
+	display: inline-block;
+}
+#header nav a{
+	padding: 10px; 
+	text-transform: uppercase;
+	margin-left: -5px;
+}
+#header nav a:hover{
+	background-color:#2AACD9;
+}
+#header nav a:active{
+	background-color:#ED4040;
+}
+.fixed{
+	position: fixed;
+	z-index: 100;
+}
+h1,h2,h3{
+	text-shadow: 0 1px 0 #000;
+}
+.activeMenu{
+	background-color: #ED4040;
+}
+footer{
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #000F1C;
+	opacity: 0.8;
+	padding: 2%;
+	margin-top: 2%;
+}
+footer strong{
+	float: right;
+	text-align: center;
+	margin-top: -1%;
+}
